@@ -1,11 +1,11 @@
 function formatString(input: string, toUpper?: boolean): string {
       
     if(toUpper === false){
-      const lowercase= input.toLocaleLowerCase();
+      const lowercase= input.toLowerCase();
       return lowercase;
     }
     else{
-      const uppercase= input.toLocaleUpperCase();
+      const uppercase= input.toUpperCase();
       return uppercase;
     }
 }
@@ -123,10 +123,7 @@ interface Product {
   }
   
   function getDayType(day: Day): string {
-    if(day === Day.Sunday){
-        return "Weekend";
-    }
-    return "Weekday";
+    return day === Day.Sunday ? "Weekend" : "Weekday";
 
   }
  
