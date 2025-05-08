@@ -40,7 +40,7 @@ enum Direction {
 console.log(Direction.Up); // 1
 console.log(Direction.Left); // 3
 
-#### String Enum Example
+#### String Enum Example:
 
 ```typescript
 enum Role {
