@@ -39,21 +39,9 @@ enum Direction {
 }
 console.log(Direction.Up); // 1
 console.log(Direction.Left); // 3
+```
 
-# TypeScript String Enum Example
-
-## Overview
-This project demonstrates the use of string enums in TypeScript. Enums are a way of giving more friendly names to sets of numeric or string values. A string enum in TypeScript allows us to associate a set of named constants with string values, which enhances code readability and organization.
-
-## Features
-- Defines a string enum for roles such as Admin, User, and Guest.
-- Each enum member is explicitly assigned a string value.
-
-## Technologies Used
-- TypeScript
-
-## Example: String Enum in TypeScript
-
+#### String Enum Example:
 ```typescript
 enum Role {
   Admin = "ADMIN",
